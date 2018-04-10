@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ats_offer_portal_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[    (function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,  
+    /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,  
+    /* Optional GlideRecord */ event) {  
+      var url = '<a href="' + gs.getProperty('glide.servlet.uri') + 'careers/?id=offer_letter&sys_id=' + current.sys_id + '">Take me to my offer letter</a>';  
+      template.print(url);  
+    })(current, template, email, email_action, event);  ]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 18:48:04</sys_created_on>
+        <sys_id>f0695179371d13009af1097973990e62</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ats_offer_portal_link</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_script_email_f0695179371d13009af1097973990e62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 21:00:05</sys_updated_on>
+    </sys_script_email>
+</record_update>

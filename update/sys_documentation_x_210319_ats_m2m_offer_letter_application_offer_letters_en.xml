@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="offer_letters" label="Offer Letters" language="en" table="x_210319_ats_m2m_offer_letter_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>offer_letters</element>
+            <help/>
+            <hint/>
+            <label>Offer Letters</label>
+            <language>en</language>
+            <name>x_210319_ats_m2m_offer_letter_application</name>
+            <plural>Offer Letters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 19:38:19</sys_created_on>
+            <sys_id>95f56d31375d13009af1097973990e62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Offer Letters</sys_name>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_documentation_x_210319_ats_m2m_offer_letter_application_offer_letters_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 19:38:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

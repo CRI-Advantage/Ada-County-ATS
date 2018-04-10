@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Send on site interview invite</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Send on site interview invite</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if(current.onsiteinterviewtime == '' || current.on_site_interview_end_time == ''){
+	action.setRedirectURL(current);
+	gs.addErrorMessage("The on site interview start time and on site interview end time fields cannot be blank.");
+}else{
+	gs.setValue(current.notes, "Invite to on site interview sent.");
+	action.setRedirectURL(current);
+	current.update();
+	gs.eventQueue('x_210319_ats.onsite.interview.invite',current);
+}	]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 22:20:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30b7f74537d113009af1097973990ea9</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Send on site interview invite</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_ui_action_30b7f74537d113009af1097973990ea9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 23:28:11</sys_updated_on>
+        <table>x_210319_ats_applications_received</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

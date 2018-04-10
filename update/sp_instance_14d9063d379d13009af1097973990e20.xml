@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1cffa8f2379113009af1097973990ede</sp_column>
+        <sp_widget display_value="Offer Letter">1f91f535375d13009af1097973990e07</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-04-06 22:14:59</sys_created_on>
+        <sys_id>14d9063d379d13009af1097973990e20</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_instance_14d9063d379d13009af1097973990e20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-09 18:16:16</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=14d9063d379d13009af1097973990e20"/>
+</record_update>

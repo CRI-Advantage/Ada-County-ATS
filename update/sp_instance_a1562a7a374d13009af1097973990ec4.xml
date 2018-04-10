@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bd5d1636374d13009af1097973990ec3</sp_column>
+        <sp_widget display_value="Ticket Fields">5736bf52cb30020000f8d856634c9c2d</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 16:37:49</sys_created_on>
+        <sys_id>a1562a7a374d13009af1097973990ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_instance_a1562a7a374d13009af1097973990ec4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 16:37:49</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1562a7a374d13009af1097973990ec4"/>
+</record_update>

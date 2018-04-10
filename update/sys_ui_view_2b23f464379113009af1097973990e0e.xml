@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>applicant_tracking</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-02 18:44:03</sys_created_on>
+        <sys_id>2b23f464379113009af1097973990e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Applicant_tracking</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_ui_view_2b23f464379113009af1097973990e0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-02 18:44:03</sys_updated_on>
+        <title>Applicant_tracking</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

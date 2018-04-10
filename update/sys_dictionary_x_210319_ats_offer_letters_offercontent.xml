@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="offercontent" table="x_210319_ats_offer_letters">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Offer letter content</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;We're delighted to extend this offer of employment for the position of listed below with CRI Advantage, Inc.&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;Please review this summary of terms and conditions for your anticipated employment with us.&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;Please find below the terms and conditions of your employment, should you accept this offer:&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;&lt;strong&gt;Cash Compensation. &lt;/strong&gt;The Company will pay you a starting salary at the rate listed below, minus applicable taxes, payable in accordance with the Company's standard payroll schedule, beginning on your scheduled start date below. This salary will be subject to adjustment pursuant to the Company's employee compensation policies in effect from time to time.&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;&lt;strong&gt;Employee Benefits. &lt;/strong&gt;As a regular employee of the Company, you will be eligible to participate in a number of Company-sponsored benefits. In addition, you will be entitled to paid vacation of 14 days per year,  in accordance with the Company's vacation policy.&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;You may indicate your agreement with these terms and accept this offer by signing and dating this agreement on or before the offer expiration date listed below. Upon your acceptance of this employment offer, CRI Advantage, Inc. will provide you with the necessary paperwork and instructions.&lt;/span&gt;&lt;/p&gt;</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>offercontent</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="HTML">html</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>65536</max_length>
+        <name>x_210319_ats_offer_letters</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 15:52:03</sys_created_on>
+        <sys_id>0322b8fd379913009af1097973990eec</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Offer letter content</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_dictionary_x_210319_ats_offer_letters_offercontent</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 18:21:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>

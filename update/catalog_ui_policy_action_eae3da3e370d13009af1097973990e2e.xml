@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Job Application">4719c726378513009af1097973990edb</catalog_item>
+        <catalog_variable>IO:045156fa370d13009af1097973990eac</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 15:17:28</sys_created_on>
+        <sys_id>eae3da3e370d13009af1097973990e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jobApp_address</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_eae3da3e370d13009af1097973990e2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 15:17:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Read-only fields on application form">479a8766378513009af1097973990ece</ui_policy>
+        <variable>jobApp_address</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

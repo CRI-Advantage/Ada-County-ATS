@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_210319_ats.glide.phone_number_e164.display_territory_selector</name>
+        <read_roles/>
+        <suffix>glide.phone_number_e164.display_territory_selector</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-02 21:27:58</sys_created_on>
+        <sys_id>cc98dd20371513009af1097973990e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_210319_ats.glide.phone_number_e164.display_territory_selector</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_properties_cc98dd20371513009af1097973990e14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-02 21:27:58</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc98dd20371513009af1097973990e14"/>
+</record_update>

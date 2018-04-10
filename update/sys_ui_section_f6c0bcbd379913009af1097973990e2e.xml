@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="f6c0bcbd379913009af1097973990e2e" sys_domain="global" table="x_210319_ats_offer_letters" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:27:27</sys_created_on>
+            <sys_id>9bb595b5371d13009af1097973990e6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">f6c0bcbd379913009af1097973990e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:27:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:27:27</sys_created_on>
+            <sys_id>9fb595b5371d13009af1097973990e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">f6c0bcbd379913009af1097973990e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:27:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:27:27</sys_created_on>
+            <sys_id>13b595b5371d13009af1097973990e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">f6c0bcbd379913009af1097973990e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:27:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:27:27</sys_created_on>
+            <sys_id>93b595b5371d13009af1097973990e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">f6c0bcbd379913009af1097973990e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:27:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offercontent</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:27:27</sys_created_on>
+            <sys_id>17b595b5371d13009af1097973990e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">f6c0bcbd379913009af1097973990e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:27:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_210319_ats_offer_letters</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 15:46:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6c0bcbd379913009af1097973990e2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_210319_ats_offer_letters</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_ui_section_f6c0bcbd379913009af1097973990e2e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 15:46:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

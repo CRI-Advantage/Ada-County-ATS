@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>job_title</display_field>
+        <field_list/>
+        <filter table="x_210319_ats_jobs">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">721af7fe370153009af1097973990e9f</sp_column>
+        <sp_page display_value="career_job_posting">929106a237c113009af1097973990e78</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 22:44:06</sys_created_on>
+        <sys_id>c72a33fe370153009af1097973990e2a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_instance_vlist_c72a33fe370153009af1097973990e2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-09 22:52:15</sys_updated_on>
+        <table>x_210319_ats_jobs</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "employment_type,salary_minimum,salary_maximum",
+		"displayValue": "employment_type,salary_minimum,salary_maximum"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=c72a33fe370153009af1097973990e2a"/>
+</record_update>

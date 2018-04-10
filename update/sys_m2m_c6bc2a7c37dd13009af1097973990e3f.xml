@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_210319_ats_applications_received</from_table>
+        <m2m_from_field>applications_received</m2m_from_field>
+        <m2m_from_label>Assessment Instances</m2m_from_label>
+        <m2m_table>x_210319_ats_m2m_assessment_i_application</m2m_table>
+        <m2m_to_field>assessment_instance</m2m_to_field>
+        <m2m_to_label>Applications Received</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-03 22:13:51</sys_created_on>
+        <sys_id>c6bc2a7c37dd13009af1097973990e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_210319_ats_m2m_assessment_i_application</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_m2m_c6bc2a7c37dd13009af1097973990e3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-03 22:13:51</sys_updated_on>
+        <to_table>asmt_assessment_instance</to_table>
+    </sys_m2m>
+</record_update>

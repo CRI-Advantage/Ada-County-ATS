@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>asmt_assessment_instance</collection>
+        <email_layout display_value="HR Layout">3094602c375113009af1097973990e59</email_layout>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>HR Survey Template</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-02 22:18:31</sys_created_on>
+        <sys_id>4f24ada8371513009af1097973990e3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Survey Template</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sysevent_email_template_4f24ada8371513009af1097973990e3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-02 22:18:31</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

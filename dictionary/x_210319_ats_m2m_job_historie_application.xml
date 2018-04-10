@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ats M2m Job Historie Application" max_length="40" name="x_210319_ats_m2m_job_historie_application" type="collection">
+        <element label="Applications Received" max_length="32" name="applications_received" reference="x_210319_ats_applications_received" type="reference"/>
+        <element label="Job History" max_length="32" name="job_history" reference="x_210319_ats_job_history" type="reference"/>
+        <index name="index">
+            <element name="applications_received"/>
+        </index>
+        <index name="index2">
+            <element name="job_history"/>
+        </index>
+    </element>
+</database>

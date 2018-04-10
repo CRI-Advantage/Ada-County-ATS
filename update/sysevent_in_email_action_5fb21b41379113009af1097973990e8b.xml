@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">bodyLIKEUID:x_210319_ats_applications_received^EQ<item endquery="false" field="body" goto="false" newquery="false" operator="LIKE" or="false" value="UID:x_210319_ats_applications_received"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>ATS Phone Interview Responses</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	var sbj = email.subject;       //email subject
+
+var body = email.body_text;       //email body
+
+var sysbody = body.indexOf('UID:x_210319_ats_applications_received');
+
+var sysid = body.slice(sysbody +12, sysbody + 44);       //get the custom identifier of the outlook event
+
+//gs.log(sysid + 'sys id of table_name record');
+
+//See if the sys_id from the subject line returns any records
+
+var ga = new GlideAggregate('x_210319_ats_applications_received');
+
+ga.addAggregate('COUNT');
+
+ga.addQuery('sys_id',sysid);ga.query();
+
+var answer = 0;
+
+if (ga.next()) {
+
+       answer = gr.getAggregate('COUNT');
+
+       //If there are no records, create a log
+
+       if (answer == 0) {
+
+                   gs.log("No meeting response " + sbj);
+
+       //Record has been found. Update the invite response fields
+
+       } else {
+
+                   var gr = new GlideRecord('x_210319_ats_applications_received');
+
+                   gr.addQuery('sys_id',sysid);
+
+                   gr.query();
+
+                   while (gr.next()){
+
+                       var usrResp = '';  
+					   
+					   if (sbj.indexOf('Accepted') > -1){
+
+                                       usrResp = 'Accepted';
+
+                           } else if (sbj.indexOf('Tentative') > -1){
+
+                                       usrResp = 'Tentative';
+
+                           } else if (sbj.indexOf('Declined') > -1){
+
+                                       usrResp = 'Declined';
+
+                           }
+
+                           var responsenotes = gr.notes;
+
+                           var bslice = body.indexOf('BEGIN:VCALENDAR');
+
+                           if (bslice == -1) {
+
+                                       gr.notes = usrResp +'\n\n' + body + '\n\n' + responsenotes;
+
+                           } else if (bslice > 0) {
+
+                                       var sbody = body.slice(0, bslice);
+
+                                       gr.notes = usrResp +'\n\n' + sbody + '\n\n' + responsenotes;
+
+                           }
+
+                           gr.update();
+
+                   }
+
+       }
+
+}
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 20:01:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fb21b41379113009af1097973990e8b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>ATS Phone Interview Responses</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sysevent_in_email_action_5fb21b41379113009af1097973990e8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 21:08:42</sys_updated_on>
+        <table>x_210319_ats_applications_received</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

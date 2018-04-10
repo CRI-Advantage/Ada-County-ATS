@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 22:20:47</sys_created_on>
+        <sys_id>d9d4373e370153009af1097973990e4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_210319_ats_jobs.x_210319_ats.Hiring Manager</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_security_acl display_value="x_210319_ats_jobs">5dd4373e370153009af1097973990e4c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d9d4373e370153009af1097973990e4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 22:20:47</sys_updated_on>
+        <sys_user_role display_value="x_210319_ats.Hiring Manager" name="x_210319_ats.Hiring Manager">213cd992378113009af1097973990e47</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ats M2m Offer Letter Application" max_length="40" name="x_210319_ats_m2m_offer_letter_application" type="collection">
+        <element label="Applications Received" max_length="32" name="applications_received" reference="x_210319_ats_applications_received" type="reference"/>
+        <element label="Offer Letters" max_length="32" name="offer_letters" reference="x_210319_ats_offer_letters" type="reference"/>
+        <index name="index">
+            <element name="applications_received"/>
+        </index>
+        <index name="index2">
+            <element name="offer_letters"/>
+        </index>
+    </element>
+</database>

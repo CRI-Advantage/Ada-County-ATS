@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Human Resources" name="Human Resources">b69d02137f232200ee2e108c3ffa913c</category>
+        <collection>x_210319_ats_offer_letters</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="text-align: right;"><span style="font-size: 12pt; line-height: 115%; font-family: arial, helvetica, sans-serif;">${offerextendeddate}<br /></span></p>
+<p style="margin: 0in 0in 0.0001pt; line-height: 115%; font-size: 11pt; font-family: Arial, sans-serif; color: black;"><span style="font-size: 12pt; line-height: 115%; font-family: arial, helvetica, sans-serif;">Dear ${applicant_name},</span></p>
+<p style="margin: 0in 0in 0.0001pt; line-height: 115%; font-size: 11pt; font-family: Arial, sans-serif; color: black;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; line-height: 115%; font-size: 11pt; font-family: Arial, sans-serif; color: black;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">It is my great pleasure to offer you the job of&nbsp;${applying_for}&nbsp;at CRI Advantage, Inc.. You will find the details of the offer in document linked below.</span></p>
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">This offer is valid until ${offer_expiration_date}. If you choose to accept our offer, please sign the offer letter online using the link provided below.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:ats_offer_portal_link}</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">We look forward to welcoming you on board. Please let me know if you have any questions or if I can provide any additional information.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">&nbsp;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Sincerely,</span></p>
+<span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${sys_updated_by}</span></div>
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">&nbsp;</span></p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ATS Offer letter</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>applicant_name,application.applying_for.hiring_manager</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Offer letter for ${applying_for}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-05 17:55:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6282c029375113009af1097973990e57</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ATS Offer letter</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sysevent_email_action_6282c029375113009af1097973990e57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 19:52:38</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="HR Template">562824ac375113009af1097973990e7f</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

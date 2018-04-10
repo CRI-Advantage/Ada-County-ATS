@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>true</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule/>
+        <condition table="asmt_metric_type">sys_id=32341820375113009af1097973990e06^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="32341820375113009af1097973990e06"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_filter/>
+        <delete_business_rule/>
+        <description>EEOC survey</description>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>name</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note><![CDATA[<p>Thank you for submitting your response and participating in the EEOC process.</p>]]></end_note>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>survey</evaluation_method>
+        <filter_condition/>
+        <filter_table/>
+        <introduction><![CDATA[<p><strong><span style="text-decoration: underline;">Anti-Discrimination Notice.</span>  <em>It is an unlawful employment practice for an employer to fail or refuse to hire or discharge any individual, or otherwise to discriminate against any individual with respect to that individual’s terms and conditions of employment, because of such individual’s race, color, religion, sex, or national origin. </em></strong></p>
+<p> </p>
+<p>This employer is subject to certain nondiscrimination and affirmative action recordkeeping and reporting requirements which require the employer to invite employees to voluntarily self-identify their race/ethnicity.  Submission of this information is voluntary and refusal to provide it will not subject you to any adverse treatment.  The information obtained will be kept confidential and may only be used in accordance with the provisions of applicable federal laws, executive orders, and regulations, including those which require the information to be summarized and reported to the Federal Government for civil rights enforcement purposes.</p>
+<p> </p>
+<p>If you choose not to self-identify your race/ethnicity at this time, the federal government requires this employer to determine this information by visual survey and/or other available information.</p>
+<p> </p>
+<p>For civil rights monitoring and enforcement purposes only, all race/ethnicity information will be collected and reported in the seven categories identified below.  The definitions for each category have been established by the federal government.  If you choose to voluntarily self-identify, you may mark only one of the boxes presented below.</p>]]></introduction>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>Invitation to Self Identify</name>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <overdue_notify_user/>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles>survey_admin,survey_reader</roles>
+        <scale_factor>10</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-02 16:42:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32341820375113009af1097973990e06</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Invitation to Self Identify</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>asmt_metric_type_32341820375113009af1097973990e06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-03 21:00:21</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <url/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=32341820375113009af1097973990e06"/>
+</record_update>

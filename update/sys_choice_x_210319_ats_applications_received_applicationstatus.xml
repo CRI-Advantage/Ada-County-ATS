@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="applicationstatus" table="x_210319_ats_applications_received" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicationstatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Applied</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31f48da037d113009af1097973990e84</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 23:01:34</sys_updated_on>
+            <value>applied</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicationstatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phone Screen</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63f40da037d113009af1097973990ed5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 23:01:50</sys_updated_on>
+            <value>phone screen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicationstatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Site Interview</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence>300</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29058da037d113009af1097973990ef3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 23:01:47</sys_updated_on>
+            <value>on site interview</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicationstatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer Extended</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence>400</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>501549a037d113009af1097973990e1d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 23:01:44</sys_updated_on>
+            <value>offer extended</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicationstatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hired</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence>500</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>531505a037d113009af1097973990e88</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 23:01:40</sys_updated_on>
+            <value>hired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>applicationstatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled/Disqualified</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence>600</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>952505a037d113009af1097973990e89</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 23:01:37</sys_updated_on>
+            <value>canceled</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>applicationstatus</element>
+            <name>x_210319_ats_applications_received</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:01:52</sys_created_on>
+            <sys_id>97f48da037d113009af1097973990e2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>applicationstatus</sys_name>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_choice_x_210319_ats_applications_received_applicationstatus</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 20:01:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

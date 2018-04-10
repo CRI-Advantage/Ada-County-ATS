@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7ac0b8f9379913009af1097973990e5a" sys_domain="global" table="x_210319_ats_offer_letters" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 15:46:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83c0bcbd379913009af1097973990e30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_210319_ats_offer_letters" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">7ac0b8f9379913009af1097973990e5a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">f6c0bcbd379913009af1097973990e2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 15:46:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:27:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97b595b5371d13009af1097973990e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_210319_ats_offer_letters" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">7ac0b8f9379913009af1097973990e5a</sys_ui_form>
+            <sys_ui_section caption="Offer Details" display_value="Offer Details" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">1fb595b5371d13009af1097973990e62</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:27:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 18:28:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17e519b5371d13009af1097973990e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_210319_ats_offer_letters" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">7ac0b8f9379913009af1097973990e5a</sys_ui_form>
+            <sys_ui_section caption="Applicant Acceptance" display_value="Applicant Acceptance" name="x_210319_ats_offer_letters" sys_domain="global" view="Default view">9fe519b5371d13009af1097973990e92</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:28:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_210319_ats_offer_letters</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-06 15:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ac0b8f9379913009af1097973990e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_210319_ats_offer_letters</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7ac0b8f9379913009af1097973990e5a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-06 15:46:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

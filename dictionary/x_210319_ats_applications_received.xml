@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" label="Applications Received" max_length="40" name="x_210319_ats_applications_received" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="applicationstatus" dependent_on_field="applicationstatus" label="Applicant Disposition Code" max_length="40" name="appdispcode" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Canceled/Disqualified" label="Accepted another job offer" value="otherJob"/>
+                <element dependent_value="Canceled/Disqualified" label="Application received too late" value="tooLate"/>
+                <element dependent_value="Canceled/Disqualified" label="Does not meet minimum education requirement" value="education"/>
+                <element dependent_value="Canceled/Disqualified" label="Does not meet minimum experience requirement" value="experience"/>
+                <element dependent_value="Canceled/Disqualified" label="Failed background check" value="background"/>
+                <element dependent_value="Canceled/Disqualified" label="Failed drug test" value="drug"/>
+                <element dependent_value="Canceled/Disqualified" label="Failed to respond" value="failRespond"/>
+                <element dependent_value="Canceled/Disqualified" label="More qualified candidate selected" value="qulCandidate"/>
+                <element dependent_value="Canceled/Disqualified" label="Not willing/able to relocate" value="noRelocate"/>
+                <element dependent_value="Canceled/Disqualified" label="Offer rejected" value="offerReject"/>
+                <element dependent_value="Canceled/Disqualified" label="Poor interview" value="interview"/>
+                <element dependent_value="Canceled/Disqualified" label="Requested salary too high" value="salary"/>
+                <element dependent_value="Canceled/Disqualified" label="Requisition closed - no candidate hired" value="closed"/>
+                <element dependent_value="Canceled/Disqualified" label="Unsatisfactory reference check" value="reference"/>
+            </choice>
+        </element>
+        <element label="Applicant name" mandatory="true" max_length="32" name="applicant_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="applicationstatus" type="string">
+            <choice>
+                <element label="Applied" sequence="100" value="applied"/>
+                <element label="Phone Screen" sequence="200" value="phone screen"/>
+                <element label="On Site Interview" sequence="300" value="on site interview"/>
+                <element label="Offer Extended" sequence="400" value="offer extended"/>
+                <element label="Hired" sequence="500" value="hired"/>
+                <element label="Canceled/Disqualified" sequence="600" value="canceled"/>
+            </choice>
+        </element>
+        <element label="Applying for" mandatory="true" max_length="4000" name="applying_for" reference="x_210319_ats_jobs" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview location" max_length="100" name="interview_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes and observations" max_length="4000" name="notes" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Date offer extended" max_length="40" name="offerextendeddate" type="glide_date"/>
+        <element label="Offer expiration date" max_length="40" name="offer_expiration_date" type="glide_date"/>
+        <element label="On site interview start time" max_length="40" name="onsiteinterviewtime" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="On site interview notes and observations" max_length="4000" name="onsitenotes" type="journal"/>
+        <element label="On site interview end time" max_length="40" name="on_site_interview_end_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone interview notes and observations" max_length="4000" name="phoneinterviewnotes" type="journal"/>
+        <element label="Phone interview start time" max_length="40" name="phoneinterviewtime" type="glide_date_time"/>
+        <element label="Phone conference line" max_length="40" name="phone_conference_line" type="string"/>
+        <element label="Phone interview end time" max_length="40" name="phone_interview_end_time" type="glide_date_time"/>
+        <element attributes="omit_sys_original=true" label="Salary offered" max_length="20" name="salaryoffered" type="currency"/>
+        <element label="Expected start date and time" max_length="40" name="startdatetime" type="glide_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="applicant_name"/>
+        </index>
+    </element>
+</database>

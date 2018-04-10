@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ats M2m Educations Users" max_length="40" name="x_210319_ats_m2m_educations_users" type="collection">
+        <element label="Education" max_length="32" name="education" reference="x_210319_ats_education" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="education"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ats M2m Assessment I Application" max_length="40" name="x_210319_ats_m2m_assessment_i_application" type="collection">
+        <element label="Applications Received" max_length="32" name="applications_received" reference="x_210319_ats_applications_received" type="reference"/>
+        <element label="Assessment Instance" max_length="32" name="assessment_instance" reference="asmt_assessment_instance" type="reference"/>
+        <index name="index">
+            <element name="applications_received"/>
+        </index>
+        <index name="index2">
+            <element name="assessment_instance"/>
+        </index>
+    </element>
+</database>

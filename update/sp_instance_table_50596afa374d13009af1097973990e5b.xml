@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>company_name,start_date,end_date,currently_employed_here</field_list>
+        <filter table="x_210319_ats_job_history">active=true^created_by=javascript:gs.getUserID()</filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>4</order>
+        <order_by>start_date</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bd5d1636374d13009af1097973990ec3</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 16:50:51</sys_created_on>
+        <sys_id>50596afa374d13009af1097973990e5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Job History</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_instance_table_50596afa374d13009af1097973990e5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 16:52:07</sys_updated_on>
+        <table>x_210319_ats_job_history</table>
+        <title>Job History</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=50596afa374d13009af1097973990e5b"/>
+</record_update>

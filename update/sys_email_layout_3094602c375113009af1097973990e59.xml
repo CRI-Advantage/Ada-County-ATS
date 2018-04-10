@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<table class="body" style="margin: 0; background: #f3f3f3!important; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; height: 100%; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td class="center" align="center" valign="top" style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><center data-parsed="" style="min-width: 580px; width: 100%;">
+<table align="center" class="wrapper header float-center" style="margin: 0 auto; background: #395775; border-collapse: collapse; border-spacing: 0; float: none; padding: 0; text-align: center; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 20px; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table align="center" class="container" style="margin: 0 auto; background: 0 0; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: inherit; vertical-align: top; width: 580px;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table class="row collapse" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th class="small-6 large-6 columns first" style="margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 298px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;"><img src="Ada%20County%20Logo.pngx" style="align: baseline;" align="baseline" width="96" height="96" /></th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class="small-6 large-6 columns last" style="margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; text-align: left; width: 298px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;">
+<p class="text-right" style="margin: 0; margin-bottom: 10px; color: #fff; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-top: 15px; text-align: right;">Ada County&nbsp;Human Resources</p>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" class="container float-center" style="margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; float: none; padding: 0; text-align: center; vertical-align: top; width: 580px;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><br />${notification:body}
+<table class="wrapper secondary" align="center" style="background: #f3f3f3; border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td class="wrapper-inner" style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;"><br />
+<table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th class="small-12 large-5 columns first" style="margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 225.67px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;"><img src="Ada%20County%20Logo.pngx" style="align: baseline;" align="baseline" width="200" height="199" /></th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class="small-12 large-7 columns last" style="margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 322.33px;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<th style="margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; padding: 0; text-align: left;">
+<h5 style="margin: 0px 0px 10px; color: inherit; font-size: 20px; font-weight: 400; line-height: 1.3; padding: 0px; word-wrap: normal; text-align: center;">Ada County&nbsp;Human Resources</h5>
+<p style="text-align: center;"><strong>Human Resources</strong><br /> Ada County Courthouse<br /> 200 W. Front St.<br /> Boise, Idaho 83702</p>
+<p style="text-align: center;">Phone:&nbsp;<a href="tel:+1-208-287-7123" title="(208) 287-7123">(208) 287-7123</a><br /> FAX:&nbsp;208-287-6999</p>
+<p style="text-align: center;">8 am to 5 pm<br /> Mon through&nbsp;Fri excluding holidays</p>
+<p style="margin: 0px 0px 10px; line-height: 1.3; padding: 0px; text-align: center;"></p>
+<table class="button large secondary" style="margin: 0px auto 16px; border-collapse: collapse; border-spacing: 0px; padding: 0px; vertical-align: top; width: auto;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; margin: 0; border-collapse: collapse!important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: 400; hyphens: auto; line-height: 1.3; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;">
+<td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; margin: 0px; background: #777777; color: #fefefe; hyphens: auto; line-height: 1.3; padding: 0px; vertical-align: top; word-wrap: break-word; border-collapse: collapse; text-align: center; border: 0px solid #777777;"><a href="https://dev51599.service-now.com/careers" style="margin: 0; border: 0 solid #777; border-radius: 3px; color: #fefefe; display: inline-block; font-family: Helvetica,Arial,sans-serif; font-size: 20px; font-weight: bold; line-height: 1.3; padding: 10px 20px 10px 20px; text-align: left; text-decoration: none;" title="Join Our Team!" target="_blank">Join Our Team!</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+${NOTIF_UNSUB | $NOTIF_PREFS}<br /><br /></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center></td>
+</tr>
+</tbody>
+</table>]]></layout>
+        <name>HR Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-02 17:55:05</sys_created_on>
+        <sys_id>3094602c375113009af1097973990e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Layout</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_email_layout_3094602c375113009af1097973990e59</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-02 17:55:05</sys_updated_on>
+    </sys_email_layout>
+</record_update>

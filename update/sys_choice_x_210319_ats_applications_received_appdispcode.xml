@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="appdispcode" table="x_210319_ats_applications_received" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed background check</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:55:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9834d6037d113009af1097973990e3b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:55:58</sys_updated_on>
+            <value>background</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requisition closed - no candidate hired</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:57:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57a34d6037d113009af1097973990ef0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:57:42</sys_updated_on>
+            <value>closed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed drug test</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:56:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>639301a037d113009af1097973990ea7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:56:17</sys_updated_on>
+            <value>drug</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Does not meet minimum education requirement</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:52:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8072056037d113009af1097973990e74</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:53:31</sys_updated_on>
+            <value>education</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Does not meet minimum experience requirement</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:53:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdf2c5ec379113009af1097973990e76</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:53:58</sys_updated_on>
+            <value>experience</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed to respond</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:55:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef43852037d113009af1097973990ed8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:55:19</sys_updated_on>
+            <value>failRespond</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Poor interview</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:59:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3348d6037d113009af1097973990e9a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:59:23</sys_updated_on>
+            <value>interview</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not willing/able to relocate</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4714856037d113009af1097973990eca</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:58:46</sys_updated_on>
+            <value>noRelocate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer rejected</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:59:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad64856037d113009af1097973990eca</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:59:54</sys_updated_on>
+            <value>offerReject</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted another job offer</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:55:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c073c16037d113009af1097973990e22</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:55:39</sys_updated_on>
+            <value>otherJob</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>More qualified candidate selected</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:54:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a330d6037d113009af1097973990e29</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:54:53</sys_updated_on>
+            <value>qulCandidate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsatisfactory reference check</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 20:00:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d77441a037d113009af1097973990e2c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 20:00:13</sys_updated_on>
+            <value>reference</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested salary too high</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1023856037d113009af1097973990ec9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:54:14</sys_updated_on>
+            <value>salary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Canceled/Disqualified</dependent_value>
+            <element>appdispcode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application received too late</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:58:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49048d6037d113009af1097973990e99</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:58:07</sys_updated_on>
+            <value>tooLate</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>appdispcode</element>
+            <name>x_210319_ats_applications_received</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:52:58</sys_created_on>
+            <sys_id>78f2856037d113009af1097973990edb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>appdispcode</sys_name>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_choice_x_210319_ats_applications_received_appdispcode</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:52:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

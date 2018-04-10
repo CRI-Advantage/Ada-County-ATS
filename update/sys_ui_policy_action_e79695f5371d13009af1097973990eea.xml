@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>offer_expiration_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 18:31:27</sys_created_on>
+        <sys_id>e79695f5371d13009af1097973990eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>offer_expiration_date</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e79695f5371d13009af1097973990eea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 18:31:27</sys_updated_on>
+        <table>x_210319_ats_offer_letters</table>
+        <ui_policy display_value="Make fields from application form read only">9516d9b5371d13009af1097973990e09</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

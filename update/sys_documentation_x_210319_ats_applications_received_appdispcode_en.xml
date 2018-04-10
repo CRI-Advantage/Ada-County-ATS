@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="appdispcode" label="Applicant Disposition Code" language="en" table="x_210319_ats_applications_received">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>appdispcode</element>
+            <help/>
+            <hint/>
+            <label>Applicant Disposition Code</label>
+            <language>en</language>
+            <name>x_210319_ats_applications_received</name>
+            <plural>Applicant Disposition Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-02 19:49:33</sys_created_on>
+            <sys_id>3222816037d113009af1097973990eca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Applicant Disposition Code</sys_name>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_documentation_x_210319_ats_applications_received_appdispcode_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-02 19:49:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

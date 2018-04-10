@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css>.btn-form-menu {
+	vertical-align: inherit;
+  padding: inherit;
+  background: none;
+}
+
+.panel-title {
+  word-wrap: break-word;
+}
+
+.panel-heading {
+  .dropdown-menu {
+    a {
+      white-space: normal;
+    }
+  }
+}
+
+.comment {
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.mce-panel, .mce-btn {
+	background-image: none;
+	background-color: #f0f3f4;
+}
+
+.action-btn {
+  margin-right: 5px;
+}
+
+.timeline-container {
+   max-height: 50vh;
+   height: 100%;
+   overflow-y: auto;
+}
+
+.panel .panel {
+    height: auto !important;
+}
+
+.attachment-button {
+  .glyphicon-paperclip {
+    font-size: 18px;
+  }
+}
+
+.empty-state-wrapper {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 20px 20px;
+
+  .empty-state {
+    border: 1px solid #e7e9eb;
+    border-radius: 10px;
+    max-width: 700px;
+    padding: 30px 40px 20px;
+    position: relative;
+
+    .empty-state-badge {
+      top: -36px;
+      left: 50%;
+      position: absolute;
+      height: 72px;
+      width: 72px;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 100%;
+      color: #ffffff;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 40px;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-left: -36px;
+      text-align: center;
+    }
+
+    .empty-state-header {
+      font-size: 30px;
+      text-align: center;
+      color: #343d47;
+    }
+
+    .empty-state-content {
+      ul {
+        list-style: disc outside;
+        margin: 0 0 10px 0;
+        padding: 0 0 0 30px;
+      }
+    }
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>job_posting</id>
+        <internal>false</internal>
+        <link/>
+        <name>Job Posting</name>
+        <option_schema>[{"name":"disableUIActions","section":"Behavior","label":"Disable UI Actions on Form","type":"boolean"},{"name":"showFormView","section":"Behavior","label":"Display current form view","type":"boolean"},{"name":"omitHeaderOptions","section":"Behavior","label":"Omit header options icon","type":"boolean"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[var t = data;
+// data.kb_knowledge_page = $sp.getDisplayValue("kb_knowledge_page") || "kb_view";
+var articleGR = new GlideRecord('x_210319_ats_jobs');
+articleGR.get($sp.getParameter('sys_id'));
+var recordIsValid = articleGR.isValidRecord();
+var canReadArticle = articleGR.canRead();
+t.isvalid = recordIsValid && canReadArticle;
+
+//if (canReadArticle) {
+	//articleGR.incrementViewCount(); // update sys_view_count immediately on kb_knowledge record
+	//var art = new GlideRecord("kb_use");
+	//if (art.isValid()) {
+		//art.article = articleGR.getUniqueValue();
+		//art.user = gs.getUserID();
+		//art.viewed = true;
+		//art.insert(); // kb_use records are aggregated to update sys_view_count nightly
+		//$sp.logStat('KB Article View', "kb_knowledge", articleGR.getUniqueValue(), articleGR.short_description);
+	//}
+
+	//t.category = articleGR.getValue('kb_category');
+	t.sys_id = $sp.getParameter('sys_id');
+	t.showAttachments = false;
+	if (articleGR.display_attachments)
+		t.showAttachments = true;
+	//t.categoryDisplay = articleGR.getDisplayValue('kb_category');
+	t.job_title = articleGR.getValue('job_title');
+	if (articleGR.getValue('article_type') == 'wiki'){
+		t.text = GlideWikiModel().render(articleGR.getValue('wiki'));
+	}else{
+		t.employment_type = articleGR.getDisplayValue('employment_type');
+		t.description = articleGR.getDisplayValue('description');
+		t.required_skills_education = articleGR.getDisplayValue('required_skills_education');
+		t.required_education = articleGR.getDisplayValue('required_education');
+		t.required_experience = articleGR.getDisplayValue('required_experience');
+	}
+//	t.sys_view_count = articleGR.getDisplayValue('sys_view_count');
+//	t.author = articleGR.getDisplayValue('author');
+//	t.publishedUtc = articleGR.getValue('published');
+//	t.number = articleGR.getValue('number');
+//	if (showStarRating())
+//		t.rating = articleGR.getValue('rating');
+//	t.direct = false;
+//	if (articleGR.direct)
+//		t.direct = true;
+
+	t.breadcrumbs = [{label: t.short_description, url: '#'}];
+//	if (!articleGR.kb_category.nil()) {
+//		var rec = articleGR.kb_category.getRefRecord();
+//		while (rec.getRecordClassName() == "kb_category") {
+//			t.breadcrumbs.unshift({label: rec.getDisplayValue(), url: '?id=kb_category&kb_category=' + rec.getUniqueValue()});
+//			rec = rec.parent_id.getRefRecord();
+//		}
+//	}
+//	t.breadcrumbs.unshift({label: gs.getMessage("Knowledge Base"), url: '?id=' + t.kb_knowledge_page});
+//}
+
+function showStarRating() {
+	if (options.show_star_rating == "Yes")
+		return true;
+
+	if (options.show_star_rating == "No")
+		return false;
+
+	if (gs.getProperty("glide.knowman.show_star_rating", "true") != "true")
+		return false;
+
+	return gs.hasRole(gs.getProperty("glide.knowman.show_star_rating.roles"));
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 23:09:29</sys_created_on>
+        <sys_id>43ff3fb2374153009af1097973990e08</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Job Posting</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_widget_43ff3fb2374153009af1097973990e08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-29 22:10:26</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
+
+  <div class="panel-heading">
+    <h4 class="panel-title">{{::data.job_title}}<span class="pull-right">{{::data.number}}</span></h4>
+  </div>
+
+  <div class="panel-body m-b-lg wrapper-lg">
+
+    <b>${Employment Type}</b><br>
+    <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.employment_type" style="overflow-x:auto;"></div>
+    <br>
+    <b>${Job Description}</b><br>
+    <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.description" style="overflow-x:auto;"></div>
+    <br>
+    <b>${Required Skills}</b><br>
+    <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.required_skills_education" style="overflow-x:auto;"></div>
+    <br>
+    <b>${Required Education}</b><br>
+    <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.required_education" style="overflow-x:auto;"></div>
+    <br>
+    <b>${Required Experience}</b><br>
+    <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.required_experience" style="overflow-x:auto;"></div>
+
+    <br>
+    <a href="https://dev51599.service-now.com/careers?id=sc_cat_item&sys_id=4719c726378513009af1097973990edb" style="font-size: 25px">Click here to submit an application</a>
+    
+    <h4 ng-if="data.direct">
+      ${View or download the attachments below}
+    </h4>
+    <div ng-if="::data.showAttachments || data.direct" class="b-t m-t">
+      <sp-attachment-manager table="'kb_knowledge'" sys-id="::data.sys_id" omit-edit="true"></sp-attachment-manager>
+    </div>
+
+  </div>
+</div>
+
+<div ng-if="!data.isvalid">
+  ${Article not found}
+</div>]]></template>
+    </sp_widget>
+</record_update>

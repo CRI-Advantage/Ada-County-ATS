@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn-form-menu {
+	vertical-align: inherit;
+  padding: inherit;
+  background: none;
+}
+
+.panel-title {
+  word-wrap: break-word;
+}
+
+.panel-heading {
+  .dropdown-menu {
+    a {
+      white-space: normal;
+    }
+  }
+}
+
+.comment {
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.mce-panel, .mce-btn {
+	background-image: none;
+	background-color: #f0f3f4;
+}
+
+.action-btn {
+  margin-right: 5px;
+}
+
+.timeline-container {
+   max-height: 50vh;
+   height: 100%;
+   overflow-y: auto;
+}
+
+.panel .panel {
+    height: auto !important;
+}
+
+.attachment-button {
+  .glyphicon-paperclip {
+    font-size: 18px;
+  }
+}
+
+.empty-state-wrapper {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 20px 20px;
+
+  .empty-state {
+    border: 1px solid #e7e9eb;
+    border-radius: 10px;
+    max-width: 700px;
+    padding: 30px 40px 20px;
+    position: relative;
+
+    .empty-state-badge {
+      top: -36px;
+      left: 50%;
+      position: absolute;
+      height: 72px;
+      width: 72px;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 100%;
+      color: #ffffff;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 40px;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-left: -36px;
+      text-align: center;
+    }
+
+    .empty-state-header {
+      font-size: 30px;
+      text-align: center;
+      color: #343d47;
+    }
+
+    .empty-state-content {
+      ul {
+        list-style: disc outside;
+        margin: 0 0 10px 0;
+        padding: 0 0 0 30px;
+      }
+    }
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>offer_letter</id>
+        <internal>false</internal>
+        <link/>
+        <name>Offer Letter</name>
+        <option_schema>[{"name":"disableUIActions","section":"Behavior","label":"Disable UI Actions on Form","type":"boolean"},{"name":"showFormView","section":"Behavior","label":"Display current form view","type":"boolean"},{"name":"omitHeaderOptions","section":"Behavior","label":"Omit header options icon","type":"boolean"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[var t = data;
+// data.kb_knowledge_page = $sp.getDisplayValue("kb_knowledge_page") || "kb_view";
+var articleGR = new GlideRecord('x_210319_ats_offer_letters');
+articleGR.get($sp.getParameter('sys_id'));
+var recordIsValid = articleGR.isValidRecord();
+var canReadArticle = articleGR.canRead();
+t.isvalid = recordIsValid && canReadArticle;
+
+//if (canReadArticle) {
+	//articleGR.incrementViewCount(); // update sys_view_count immediately on kb_knowledge record
+	//var art = new GlideRecord("kb_use");
+	//if (art.isValid()) {
+		//art.article = articleGR.getUniqueValue();
+		//art.user = gs.getUserID();
+		//art.viewed = true;
+		//art.insert(); // kb_use records are aggregated to update sys_view_count nightly
+		//$sp.logStat('KB Article View', "kb_knowledge", articleGR.getUniqueValue(), articleGR.short_description);
+	//}
+
+	//t.category = articleGR.getValue('kb_category');
+	t.sys_id = $sp.getParameter('sys_id');
+	t.showAttachments = false;
+	if (articleGR.display_attachments)
+		t.showAttachments = true;
+	//t.categoryDisplay = articleGR.getDisplayValue('kb_category');
+	t.offercontent = articleGR.getValue('offercontent');
+	if (articleGR.getValue('article_type') == 'wiki'){
+		t.text = GlideWikiModel().render(articleGR.getValue('wiki'));
+	}else{
+		t.number = articleGR.getDisplayValue('number');
+		t.applying_for = articleGR.getDisplayValue('applying_for');
+		t.offerextendeddate = articleGR.getDisplayValue('offerextendeddate');
+		t.date_signed = articleGR.getDisplayValue('date_signed');
+		t.electronic_agreement = articleGR.getDisplayValue('electronic_agreement');
+		t.startdatetime = articleGR.getDisplayValue('startdatetime');
+		t.offer_expiration_date = articleGR.getDisplayValue('offer_expiration_date');
+		t.salaryoffered = articleGR.getDisplayValue('salaryoffered');
+		t.signature = articleGR.getDisplayValue('signature');
+	}
+
+
+//	t.sys_view_count = articleGR.getDisplayValue('sys_view_count');
+//	t.author = articleGR.getDisplayValue('author');
+//	t.publishedUtc = articleGR.getValue('published');
+//	t.number = articleGR.getValue('number');
+//	if (showStarRating())
+//		t.rating = articleGR.getValue('rating');
+//	t.direct = false;
+//	if (articleGR.direct)
+//		t.direct = true;
+
+	t.breadcrumbs = [{label: t.short_description, url: '#'}];
+//	if (!articleGR.kb_category.nil()) {
+//		var rec = articleGR.kb_category.getRefRecord();
+//		while (rec.getRecordClassName() == "kb_category") {
+//			t.breadcrumbs.unshift({label: rec.getDisplayValue(), url: '?id=kb_category&kb_category=' + rec.getUniqueValue()});
+//			rec = rec.parent_id.getRefRecord();
+//		}
+//	}
+//	t.breadcrumbs.unshift({label: gs.getMessage("Knowledge Base"), url: '?id=' + t.kb_knowledge_page});
+//}
+
+function showStarRating() {
+	if (options.show_star_rating == "Yes")
+		return true;
+
+	if (options.show_star_rating == "No")
+		return false;
+
+	if (gs.getProperty("glide.knowman.show_star_rating", "true") != "true")
+		return false;
+
+	return gs.hasRole(gs.getProperty("glide.knowman.show_star_rating.roles"));
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 20:29:15</sys_created_on>
+        <sys_id>1f91f535375d13009af1097973990e07</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>Offer Letter</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_widget_1f91f535375d13009af1097973990e07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-09 18:33:44</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
+  <div class="panel-heading">
+    <h4 class="panel-title">{{::data.applying_for}}<span class="pull-right">{{::data.number}}</span></h4>
+  </div>
+	<div class="panel panel-default">
+  	<div class="panel-body m-b-lg wrapper-lg">
+    	<div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.offercontent" style="overflow-x:auto;"></div>
+    	<br>
+	    <b>${Offer Extended}</b><br>
+  	  <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.offerextendeddate" style="overflow-x:auto;"></div>
+  	  <br>
+  	  <b>${Offer Expires}</b><br>
+  	  <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.offer_expiration_date" style="overflow-x:auto;"></div>
+  	  <br>
+  	  <b>${Expected Start Date/Time}</b><br>
+  	  <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.startdatetime" style="overflow-x:auto;"></div>
+  	  <br>
+  	  <b>${Salary}</b><br>
+  	  <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.salaryoffered" style="overflow-x:auto;"></div>
+  	  <br>
+    </div>
+</div>
+
+<div ng-if="!data.isvalid">
+  ${Article not found}
+</div>]]></template>
+    </sp_widget>
+</record_update>

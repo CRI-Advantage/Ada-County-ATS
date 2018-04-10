@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>Offer Letter Template</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Offer letter body information</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 17:56:24</sys_created_on>
+        <sys_id>d74b4531371d13009af1097973990e0a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Offer Letter Template</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_template_d74b4531371d13009af1097973990e0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 18:19:13</sys_updated_on>
+        <table>x_210319_ats_offer_letters</table>
+        <template>offercontent=&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;We're delighted to extend this offer of employment for the position of listed below with CRI Advantage, Inc.&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;Please review this summary of terms and conditions for your anticipated employment with us.&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;Please find below the terms and conditions of your employment, should you accept this offer:&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;&lt;strong&gt;Cash Compensation. &lt;/strong&gt;The Company will pay you a starting salary at the rate listed below, minus applicable taxes, payable in accordance with the Company's standard payroll schedule, beginning on your scheduled start date below. This salary will be subject to adjustment pursuant to the Company's employee compensation policies in effect from time to time.&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;&lt;strong&gt;Employee Benefits. &lt;/strong&gt;As a regular employee of the Company, you will be eligible to participate in a number of Company-sponsored benefits. In addition, you will be entitled to paid vacation of 14 days per year,  in accordance with the Company's vacation policy.&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;br&gt;&#13;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: arial,helvetica,sans-serif;"&gt;You may indicate your agreement with these terms and accept this offer by signing and dating this agreement on or before the offer expiration date listed below. Upon your acceptance of this employment offer, CRI Advantage, Inc. will provide you with the necessary paperwork and instructions.&lt;/span&gt;&lt;/p&gt;^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>

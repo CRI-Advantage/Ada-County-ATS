@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_210319_ats_applications_received</collection>
+        <email_layout display_value="HR Layout">3094602c375113009af1097973990e59</email_layout>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[BEGIN:VCALENDAR
+
+PRODID:-//Service-now.com//Outlook 11.0 MIMEDIR//EN
+
+VERSION:2.0
+
+METHOD:REQUEST
+
+BEGIN:VEVENT
+
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE:MAILTO:${to}
+
+ORGANIZER:MAILTO:dev51599@service-now.com
+
+LOCATION:${phone_conference_line}
+
+DTSTART:${dtstart}
+
+DTEND:${dtend}
+
+UID:x_210319_ats_applications_received${sys_id}
+
+DTSTAMP:${dtstamp}
+
+DESCRIPTION:
+
+SUMMARY:
+
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+
+X-SNSYSID:${sys_id}
+
+BEGIN:VALARM
+
+TRIGGER:-PT15M
+
+ACTION:DISPLAY
+
+DESCRIPTION:Reminder
+
+END:VALARM
+
+END:VEVENT
+
+END:VCALENDAR]]></message_text>
+        <name>Phone Interview Create/Update</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-04 18:33:28</sys_created_on>
+        <sys_id>d8a10fc5375113009af1097973990eae</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Phone Interview Create/Update</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sysevent_email_template_d8a10fc5375113009af1097973990eae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-04 21:07:24</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

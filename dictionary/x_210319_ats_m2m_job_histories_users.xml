@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ats M2m Job Histories Users" max_length="40" name="x_210319_ats_m2m_job_histories_users" type="collection">
+        <element label="Job History" max_length="32" name="job_history" reference="x_210319_ats_job_history" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+        <index name="index2">
+            <element name="job_history"/>
+        </index>
+    </element>
+</database>

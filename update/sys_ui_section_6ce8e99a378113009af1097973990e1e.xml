@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Applicant" section_id="6ce8e99a378113009af1097973990e1e" sys_domain="global" table="sys_user" version="3" view="Applicant">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>e0e8e99a378113009af1097973990e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>64e8e99a378113009af1097973990e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>e4e8e99a378113009af1097973990e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>68e8e99a378113009af1097973990e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>20e8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>a0e8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>24e8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>a4e8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>28e8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>a8e8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>home_phone</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>2ce8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>ace8e99a378113009af1097973990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>photo</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_id>20e8e99a378113009af1097973990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant" display_value="Applicant" name="sys_user" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">6ce8e99a378113009af1097973990e1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Applicant</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:52:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ce8e99a378113009af1097973990e1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Applicant</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_ui_section_6ce8e99a378113009af1097973990e1e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:52:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Applicant" name="Applicant">e8e8e99a378113009af1097973990e1b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

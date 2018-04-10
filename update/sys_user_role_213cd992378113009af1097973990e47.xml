@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_210319_ats.Hiring Manager</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Hiring Manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-26 21:57:26</sys_created_on>
+        <sys_id>213cd992378113009af1097973990e47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_210319_ats.Hiring Manager</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_user_role_213cd992378113009af1097973990e47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-26 21:57:26</sys_updated_on>
+    </sys_user_role>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="assessment_instance" label="Assessment Instance" language="en" table="x_210319_ats_m2m_assessment_i_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assessment_instance</element>
+            <help/>
+            <hint/>
+            <label>Assessment Instance</label>
+            <language>en</language>
+            <name>x_210319_ats_m2m_assessment_i_application</name>
+            <plural>Assessment Instances</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-03 22:13:52</sys_created_on>
+            <sys_id>2acc6e7c37dd13009af1097973990eba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assessment Instance</sys_name>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_documentation_x_210319_ats_m2m_assessment_i_application_assessment_instance_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-03 22:13:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_210319_ats_education" version="2" view="Applicant">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>7d8961da378113009af1097973990ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>degree_diploma</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>fd8961da378113009af1097973990ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>degree_received</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>718961da378113009af1097973990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_date</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>f18961da378113009af1097973990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>field_of_study</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>758961da378113009af1097973990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>school</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>f58961da378113009af1097973990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>798961da378113009af1097973990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user_id</element>
+            <list_id display_value="x_210319_ats_education" element="NULL" name="x_210319_ats_education" parent="NULL" relationship="NULL" sys_domain="global" view="e8e8e99a378113009af1097973990e1b">f58961da378113009af1097973990ee8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_id>f98961da378113009af1097973990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_210319_ats_education</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-26 22:55:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f58961da378113009af1097973990ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_210319_ats_education</sys_name>
+            <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+            <sys_update_name>sys_ui_list_x_210319_ats_education_Applicant</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-26 22:55:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Applicant" name="Applicant">e8e8e99a378113009af1097973990e1b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
