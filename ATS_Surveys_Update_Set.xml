@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-04-10 14:49:07">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Service Portal Surveys">67ac5062db10220035417878f0b8f5c4</application>
+<application_name>Service Portal Surveys</application_name>
+<application_scope>sn_portal_surveys</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Surveys created for ATS</description>
+<inserted/>
+<name>ATS_Surveys</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7ca1e428375113009af1097973990e47</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-10 14:49:07</sys_created_on>
+<sys_id>4c2a8dc3371113009af1097973990ea2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-10 14:49:07</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Service Portal Surveys">67ac5062db10220035417878f0b8f5c4</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_dcd0aea56730220005d1ff5557415a9a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Allow survey link from email to open in service portal view (applies only for surveys)</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>sn_portal_surveys.sp_survey.email_redirection</name><read_roles/><suffix>sp_survey.email_redirection</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-07-23 20:15:56</sys_created_on><sys_id>dcd0aea56730220005d1ff5557415a9a</sys_id><sys_mod_count>6</sys_mod_count><sys_name>sn_portal_surveys.sp_survey.email_redirection</sys_name><sys_package display_value="Service Portal Surveys" source="sn_portal_surveys">67ac5062db10220035417878f0b8f5c4</sys_package><sys_policy/><sys_scope display_value="Service Portal Surveys">67ac5062db10220035417878f0b8f5c4</sys_scope><sys_update_name>sys_properties_dcd0aea56730220005d1ff5557415a9a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-04-02 17:28:52</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=dcd0aea56730220005d1ff5557415a9a"/></record_update>]]></payload>
+<payload_hash>718654061</payload_hash>
+<remote_update_set display_value="ATS_Surveys">4c2a8dc3371113009af1097973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-04-10 14:49:07</sys_created_on>
+<sys_id>402a8dc3371113009af1097973990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16287678db40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-04-10 14:49:07</sys_updated_on>
+<table/>
+<target_name>sn_portal_surveys.sp_survey.email_redirection</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>12f16868b2511300d47fe31f13b8be8b</update_guid>
+<update_guid_history>12f16868b2511300d47fe31f13b8be8b:718654061,06f168684c511300cf868801a7a4d685:-1773806526</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
