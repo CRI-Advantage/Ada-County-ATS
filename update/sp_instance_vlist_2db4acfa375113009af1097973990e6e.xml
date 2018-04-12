@@ -26,21 +26,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-09 17:27:10</sys_created_on>
         <sys_id>2db4acfa375113009af1097973990e6e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sp_instance_vlist_2db4acfa375113009af1097973990e6e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-09 22:33:14</sys_updated_on>
+        <sys_updated_on>2018-04-11 19:05:03</sys_updated_on>
         <table>x_210319_ats_offer_letters</table>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"always_show": {
-		"value": "true",
-		"displayValue": "true"
+		"value": "false",
+		"displayValue": "false"
 	},
 	"panel_body_height": {
 		"value": "",

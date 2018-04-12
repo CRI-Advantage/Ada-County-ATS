@@ -156,7 +156,7 @@ t.isvalid = recordIsValid && canReadArticle;
 		t.electronic_agreement = articleGR.getDisplayValue('electronic_agreement');
 		t.startdatetime = articleGR.getDisplayValue('startdatetime');
 		t.offer_expiration_date = articleGR.getDisplayValue('offer_expiration_date');
-		t.salaryoffered = articleGR.getDisplayValue('salaryoffered');
+		t.salaryoffered = articleGR.getDisplayValue('offered_salary');
 		t.signature = articleGR.getDisplayValue('signature');
 	}
 
@@ -199,14 +199,14 @@ function showStarRating() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-06 20:29:15</sys_created_on>
         <sys_id>1f91f535375d13009af1097973990e07</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name>Offer Letter</sys_name>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sp_widget_1f91f535375d13009af1097973990e07</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-09 18:33:44</sys_updated_on>
+        <sys_updated_on>2018-04-12 02:42:38</sys_updated_on>
         <template><![CDATA[<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
   <div class="panel-heading">
     <h4 class="panel-title">{{::data.applying_for}}<span class="pull-right">{{::data.number}}</span></h4>
@@ -226,7 +226,14 @@ function showStarRating() {
   	  <br>
   	  <b>${Salary}</b><br>
   	  <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.salaryoffered" style="overflow-x:auto;"></div>
-  	  <br>
+  	  <br><br>
+      <div ng-if="data.signature != ''">
+        <b>${Electronically Signed By}</b>
+        <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.signature" style="overflow-x:auto;"></div>
+      	<br>
+      	<b>${Electronic Signature Date}</b>
+      	<div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.date_signed" style="overflow-x:auto;"></div>
+      </div>
     </div>
 </div>
 

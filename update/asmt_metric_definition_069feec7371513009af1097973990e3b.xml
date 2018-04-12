@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>I do not wish to disclose</display>
+        <metric display_value="Ethnicity">f59feec7371513009af1097973990e1b</metric>
+        <order>7</order>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-10 22:12:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>069feec7371513009af1097973990e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I do not wish to disclose</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>asmt_metric_definition_069feec7371513009af1097973990e3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-10 22:12:26</sys_updated_on>
+        <unselected_image/>
+        <value>7</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=069feec7371513009af1097973990e3b"/>
+</record_update>

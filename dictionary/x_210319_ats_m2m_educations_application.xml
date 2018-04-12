@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Ats M2m Educations Application" max_length="40" name="x_210319_ats_m2m_educations_application" type="collection">
+        <element label="Applicant" max_length="32" name="applicant" reference="x_210319_ats_applications_received" type="reference"/>
         <element label="Applications Received" max_length="32" name="applications_received" reference="x_210319_ats_applications_received" type="reference"/>
         <element label="Education" max_length="32" name="education" reference="x_210319_ats_education" type="reference"/>
+        <element label="User ID" max_length="32" name="user_id" reference="x_210319_ats_education" type="reference"/>
         <index name="index">
             <element name="education"/>
         </index>
         <index name="index2">
             <element name="applications_received"/>
+        </index>
+        <index name="index3">
+            <element name="user_id"/>
+        </index>
+        <index name="index4">
+            <element name="applicant"/>
         </index>
     </element>
 </database>

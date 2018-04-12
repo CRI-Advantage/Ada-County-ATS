@@ -27,10 +27,17 @@
 	action.setRedirectURL(current);
 	gs.addErrorMessage("The phone interview start time and phone interview end time fields cannot be blank.");
 }else{
-	var msg = 'Invite to phone interview sent.';
-	current.setValue(current.notes, "Invite to phone interview sent.");
 	action.setRedirectURL(current);
 	current.update();
+	var msg = 'Invite to phone interview sent.';
+	gr = new GlideRecord('x_210319_ats_applications_received');
+	gr.addQuery('sys_id', current.sys_id);
+	gr.query();
+	if(gr.next()){
+		gr.notes = msg;
+		gr.setValue('applicationstatus', 'Phone Screen');
+		gr.update();
+	}
 	gs.eventQueue('x_210319_ats.phone.interview.invite',current);
 }]]></script>
         <show_insert>true</show_insert>
@@ -43,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7ce64b49375113009af1097973990ee0</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Send phone interview invite</sys_name>
         <sys_overrides/>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
@@ -51,7 +58,7 @@
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_ui_action_7ce64b49375113009af1097973990ee0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-04 23:12:22</sys_updated_on>
+        <sys_updated_on>2018-04-10 20:09:56</sys_updated_on>
         <table>x_210319_ats_applications_received</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

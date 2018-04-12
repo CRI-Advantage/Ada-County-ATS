@@ -5,7 +5,7 @@
         <assessment display_value="Desktop Support Interview">9f38e27837dd13009af1097973990ebd</assessment>
         <assessment_record/>
         <assessment_record_field/>
-        <business_rule display_value="Auto assessment business rule">0edaa23c37dd13009af1097973990e70</business_rule>
+        <business_rule/>
         <condition table="x_210319_ats_applications_received">applicationstatus=phone screen^ORapplicationstatus=on site interview^EQ<item endquery="false" field="applicationstatus" goto="false" newquery="false" operator="=" or="false" value="phone screen"/>
             <item endquery="false" field="applicationstatus" goto="false" newquery="false" operator="=" or="true" value="on site interview"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

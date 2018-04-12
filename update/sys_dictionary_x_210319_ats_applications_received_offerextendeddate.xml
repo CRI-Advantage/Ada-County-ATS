@@ -7,13 +7,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Date offer extended</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript: parent.offerextendeddate</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -49,15 +49,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-02 20:40:04</sys_created_on>
-        <sys_id>0fbd8de437d113009af1097973990ef8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>558bd60737d113009af1097973990e17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Date offer extended</sys_name>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_dictionary_x_210319_ats_applications_received_offerextendeddate</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-02 20:40:04</sys_updated_on>
+        <sys_updated_on>2018-04-12 01:28:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

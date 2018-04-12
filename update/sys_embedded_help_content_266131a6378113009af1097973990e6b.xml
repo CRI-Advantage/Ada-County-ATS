@@ -4,7 +4,7 @@
         <active>true</active>
         <category>sys-security</category>
         <content><![CDATA[    <h1 class="title topictitle1">Work with ACL rules</h1>        <div class="body taskbody">        <div class="li step p">                <span class="ph cmd">Complete or update the form.</span>                <div class="itemgroup info">                    <div class="p">The permissions specify when someone can access the named      object and operation. Security administrators can specify permission requirements by        adding:<ul class="ul" id="sys_security_acl-setup__d43323e61"><li class="li">One or more user roles to the <span class="ph uicontrol">Requires role</span> list.</li><li class="li">One or more conditions.</li><li class="li">A script that evaluates to true or false or sets the answer variable to          true or false.</li></ul></div>                    <p class="p">To gain access to an object and operation, a user must pass all permissions                        listed in an access control.</p>                    <p class="p">Whenever a session requests data, the system searches for access control                        rules that match the requested object and operation. If there is a matching                        access control rule, then the system evaluates if the user has the                        permissions required to access the object and operation. If the user fails                        to meet the permissions of any matching access control rule, the system                        denies access to the requested object and operation.</p>                </div>            </div>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Access_Controls&amp;version&#61;kingston" target="_blank">Access control rules</a></div></div></div></div>]]></content>
-        <last_sync>2018-03-27 18:08:07</last_sync>
+        <last_sync>2018-04-11 18:53:11</last_sync>
         <modifier>setup</modifier>
         <name>sys_security_acl-setup</name>
         <page>sys_security_acl</page>
@@ -19,14 +19,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>266131a6378113009af1097973990e6b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>sys_security_acl-setup</sys_name>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_embedded_help_content_266131a6378113009af1097973990e6b</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-03-27 18:08:07</sys_updated_on>
+        <sys_updated_on>2018-04-11 18:53:11</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=266131a6378113009af1097973990e6b"/>

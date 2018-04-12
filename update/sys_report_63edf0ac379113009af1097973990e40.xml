@@ -40,8 +40,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>metric_definition.display</field>
         <field_list/>
-        <filter table="asmt_metric_result">metric.metric_type.evaluation_method=survey^metric.metric_type=32341820375113009af1097973990e06^metric.question=Gender<item endquery="false" field="metric.metric_type.evaluation_method" goto="false" newquery="false" operator="=" or="false" value="survey"/>
-            <item display_table="asmt_metric_type" display_value="Invitation to Self Identify" endquery="false" field="metric.metric_type" goto="false" newquery="false" operator="=" or="false" value="32341820375113009af1097973990e06"/>
+        <filter table="asmt_metric_result">metric.metric_type.evaluation_method=survey^metric.metric_type=f19feec7371513009af1097973990e01^metric.question=Gender<item endquery="false" field="metric.metric_type.evaluation_method" goto="false" newquery="false" operator="=" or="false" value="survey"/>
+            <item display_table="asmt_metric_type" display_value="EEOC Survey" endquery="false" field="metric.metric_type" goto="false" newquery="false" operator="=" or="false" value="f19feec7371513009af1097973990e01"/>
             <item endquery="false" field="metric.question" goto="false" newquery="false" operator="=" or="false" value="Gender"/>
         </filter>
         <from/>
@@ -98,14 +98,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-02 19:31:01</sys_created_on>
         <sys_id>63edf0ac379113009af1097973990e40</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>EEOC Gender Results</sys_name>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_report_63edf0ac379113009af1097973990e40</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-09 15:19:22</sys_updated_on>
+        <sys_updated_on>2018-04-10 22:16:59</sys_updated_on>
         <table>asmt_metric_result</table>
         <title>EEOC Gender Results</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

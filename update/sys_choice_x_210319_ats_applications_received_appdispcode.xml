@@ -2,7 +2,7 @@
 <record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="appdispcode" table="x_210319_ats_applications_received" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -15,13 +15,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e9834d6037d113009af1097973990e3b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:55:58</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:37</sys_updated_on>
             <value>background</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -34,13 +34,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>57a34d6037d113009af1097973990ef0</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:57:42</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:52</sys_updated_on>
             <value>closed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -53,13 +53,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>639301a037d113009af1097973990ea7</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:56:17</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:39</sys_updated_on>
             <value>drug</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -72,13 +72,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8072056037d113009af1097973990e74</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:53:31</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:34</sys_updated_on>
             <value>education</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -91,13 +91,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cdf2c5ec379113009af1097973990e76</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:53:58</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:35</sys_updated_on>
             <value>experience</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -110,13 +110,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ef43852037d113009af1097973990ed8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:55:19</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:41</sys_updated_on>
             <value>failRespond</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -129,13 +129,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b3348d6037d113009af1097973990e9a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:59:23</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:49</sys_updated_on>
             <value>interview</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -148,13 +148,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4714856037d113009af1097973990eca</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:58:46</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:46</sys_updated_on>
             <value>noRelocate</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -167,13 +167,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ad64856037d113009af1097973990eca</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:59:54</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:47</sys_updated_on>
             <value>offerReject</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -186,13 +186,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c073c16037d113009af1097973990e22</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:55:39</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:30</sys_updated_on>
             <value>otherJob</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -205,13 +205,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9a330d6037d113009af1097973990e29</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:54:53</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:44</sys_updated_on>
             <value>qulCandidate</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -224,13 +224,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d77441a037d113009af1097973990e2c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 20:00:13</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:54</sys_updated_on>
             <value>reference</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -243,13 +243,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1023856037d113009af1097973990ec9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:54:14</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:51</sys_updated_on>
             <value>salary</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>Canceled/Disqualified</dependent_value>
+            <dependent_value/>
             <element>appdispcode</element>
             <hint/>
             <inactive>false</inactive>
@@ -262,9 +262,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>49048d6037d113009af1097973990e99</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-04-02 19:58:07</sys_updated_on>
+            <sys_updated_on>2018-04-12 02:31:32</sys_updated_on>
             <value>tooLate</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -273,7 +273,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-04-02 19:52:58</sys_created_on>
-            <sys_id>78f2856037d113009af1097973990edb</sys_id>
+            <sys_id>e1abde0737d113009af1097973990e12</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>appdispcode</sys_name>
             <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>

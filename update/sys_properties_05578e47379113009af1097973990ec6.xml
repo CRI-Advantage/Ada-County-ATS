@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Jobs activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_210319_ats_jobs_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-10 19:16:31</sys_created_on>
+        <sys_id>05578e47379113009af1097973990ec6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_210319_ats_jobs_activity.fields</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sys_properties_05578e47379113009af1097973990ec6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-10 19:16:31</sys_updated_on>
+        <type>string</type>
+        <value>number,job_title,department,employment_type,posting_end_date,posting_start_date,required_education,sys_tags,active,sys_created_on,sys_created_by,description,hiring_manager,hiring_team,interview_team,posting_type,required_experience,required_skills_education,salary_maximum,salary_minimum,sys_updated_on,sys_updated_by,*Email*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=05578e47379113009af1097973990ec6"/>
+</record_update>

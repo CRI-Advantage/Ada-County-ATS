@@ -4,10 +4,10 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>edge_encryption_enabled=true^live_feed=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Notes and observations</column_label>
@@ -49,7 +49,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-02 20:40:04</sys_created_on>
-        <sys_id>32bd8de437d113009af1097973990eec</sys_id>
+        <sys_id>d98bd60737d113009af1097973990e15</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Notes and observations</sys_name>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_dictionary_x_210319_ats_applications_received_notes</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-02 20:40:04</sys_updated_on>
+        <sys_updated_on>2018-04-10 20:46:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

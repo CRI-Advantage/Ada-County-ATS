@@ -6,10 +6,10 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
-        <active>true</active>
+        <action_update>true</action_update>
+        <active>false</active>
         <add_message>false</add_message>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_210319_ats_offer_letters</collection>
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>618f55b9371d13009af1097973990ef2</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Update read only field values</sys_name>
         <sys_overrides/>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
@@ -47,8 +47,8 @@
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_script_618f55b9371d13009af1097973990ef2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-09 22:30:03</sys_updated_on>
-        <template>offerextendeddateSAMEASapplication.offerextendeddate^startdatetimeSAMEASapplication.startdatetime^offer_expiration_dateSAMEASapplication.offer_expiration_date^applicant_nameSAMEASapplication.applicant_name^applying_forSAMEASapplication.applying_for^salaryoffered=javascript:global.getCurrencyFilter('x_210319_ats_offer_letters','salaryoffered', 'USD;80000')^EQ</template>
+        <sys_updated_on>2018-04-12 01:33:25</sys_updated_on>
+        <template>applicant_nameSAMEASapplication.applicant_name^EQ</template>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=618f55b9371d13009af1097973990ef2"/>
