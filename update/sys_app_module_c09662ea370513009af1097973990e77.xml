@@ -15,7 +15,7 @@
         <mobile_title>Careers Portal</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>4</order>
+        <order>2</order>
         <override_menu_roles>true</override_menu_roles>
         <query>/careers</query>
         <report/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c09662ea370513009af1097973990e77</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Careers Portal</sys_name>
         <sys_overrides/>
         <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
         <sys_update_name>sys_app_module_c09662ea370513009af1097973990e77</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-02 22:51:50</sys_updated_on>
+        <sys_updated_on>2018-04-16 15:47:16</sys_updated_on>
         <timeline_page/>
         <title>Careers Portal</title>
         <uncancelable>false</uncancelable>
