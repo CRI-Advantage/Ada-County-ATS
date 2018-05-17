@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+section.page {
+  background-image: url('sp-landing-back.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>careers_landing</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-17 18:42:49</sys_created_on>
+        <sys_id>d472200fdb8a9300bc01f9361d961909</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>careers_landing</sys_name>
+        <sys_package display_value="Applicant Tracking" source="x_210319_ats">b03cb092374113009af1097973990ec9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Applicant Tracking">b03cb092374113009af1097973990ec9</sys_scope>
+        <sys_update_name>sp_page_d472200fdb8a9300bc01f9361d961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-17 18:43:17</sys_updated_on>
+        <title>Careers</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=d472200fdb8a9300bc01f9361d961909"/>
+</record_update>

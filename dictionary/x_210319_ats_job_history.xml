@@ -12,7 +12,6 @@
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="Supervisor Name" max_length="100" name="supervisor_name" type="string"/>
         <element label="Supervisor Phone" max_length="40" name="supervisor_phone" type="phone_number_e164"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Title" max_length="200" name="title" type="string"/>
         <element label="User ID" max_length="32" name="user_id" reference="sys_user" type="reference"/>
         <index name="index">

@@ -6,8 +6,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="sys_user">u_applicant=true^EQ<item endquery="false" field="u_applicant" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="sys_user">u_applicant=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
         <homepage/>

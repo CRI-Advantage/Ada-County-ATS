@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="HR Hiring Managers" name="HR Hiring Managers">cff644ba371113009af1097973990e17</group_id>
+        <group_id display_value="">cff644ba371113009af1097973990e17</group_id>
         <report_id display_value="EEOC Gender Results">63edf0ac379113009af1097973990e40</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -49,7 +49,6 @@
         <element label="Required skills" mandatory="true" max_length="4000" name="required_skills_education" type="html"/>
         <element label="Salary maximum" max_length="20" name="salary_maximum" type="currency"/>
         <element label="Salary minimum" max_length="20" name="salary_minimum" type="currency"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="department"/>
         </index>

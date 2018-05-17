@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>applicant_name</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>applying_for</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>applicationstatus</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>appdispcode</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -94,7 +94,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="43ab124737d113009af1097973990ed6">9260353a371513009af1097973990eec</list_id>
+            <list_id display_value="x_210319_ats_applications_received" element="NULL" name="x_210319_ats_applications_received" parent="NULL" relationship="NULL" sys_domain="global" view="336efb7edb0a9300bc01f9361d9619f0">9260353a371513009af1097973990eec</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -131,7 +131,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-04-09 22:57:53</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptf4526928371513009af1097973990e13" name="RPTf4526928371513009af1097973990e13">43ab124737d113009af1097973990ed6</view>
+            <view display_value="Rptf4526928371513009af1097973990e13" name="RPTf4526928371513009af1097973990e13">336efb7edb0a9300bc01f9361d9619f0</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

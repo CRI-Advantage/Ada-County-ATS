@@ -45,8 +45,10 @@
         <element label="Phone interview end time" max_length="40" name="phone_interview_end_time" type="glide_date_time"/>
         <element attributes="omit_sys_original=true" label="Salary offered" max_length="20" name="salaryoffered" type="currency"/>
         <element default="javascript: parent.startdatetime" label="Expected start date and time" max_length="40" name="startdatetime" type="glide_date_time"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="applying_for"/>
+        </index>
+        <index name="index2">
             <element name="applicant_name"/>
         </index>
     </element>
